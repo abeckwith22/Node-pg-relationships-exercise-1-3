@@ -1,0 +1,11 @@
+// GET REQUEST: curl http://localhost:3000/companies
+// GET REQUEST: curl http://localhost:3000/companies/apple
+// POST REQUEST: curl -X POST -H "Content-Type: application/json" -d '{"code":"ash", "name":"asher_inc", "description":"Cool Company"}' http://localhost:3000/companies
+// PATCH REQUEST: curl -X PATCH -H "Content-Type: application/json" -d '{"code":"ash", "name":"asher_inc", "description":"Now a VERY cool company"}' http://localhost:3000/companies/ash
+// DELETE REQUEST: curl -X DELETE http://localhost:3000/companies/ash
+
+// GET REQUEST: curl http://localhost:3000/invoices
+// GET REQUEST: curl http://localhost:3000/invoices/1
+// POST REQUEST: curl -X POST -H "Content-Type: application/json" -d '{"comp_code":"ash", "amt":500}' http://localhost:3000/invoices
+// PATCH REQUEST: curl -X PATCH -H "Content-Type: application/json" -d '{"comp_code":"ash", "amt":12000}' http://localhost:3000/invoices/1
+// DELETE REQUEST: curl -X DELETE http://localhost:3000/invoices/5
